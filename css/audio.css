@@ -1,24 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main_container{
-    text-align: center;
-    
+.main_container {
+  text-align: center;
 }
-.play_icon{
-    height: 50px;
-    width: 50px;
-    border-radius: 20px;
-    color: blue;
-    border: 1px solid red;
-    padding: auto;
-    cursor: pointer;
-    text-align: center;
+.main_header{
+   height: 60px;
+   width: 100vw;
+   background-color: black;
+   color: orangered;
+}
 
+#play_icon {
+  height: 50px;
+  width: 70px;
+  border: 2px solid rgb(6, 209, 209);
+  border-radius: 45%;
+  cursor: pointer;
+  color:rgb(6, 209, 209) ;
+  margin: auto;
+  margin-top: 70px;
 }
-.play_icon:hover{
-    background-color: black;
-    color: #fff;
+#play {
+  text-align: center;
+   padding: 15px 10px;
 }
+#play_icon:hover {
+  background-color: black;
+  color: #fff;
+  border: 1px solid teal;
+  box-shadow:0px 0px 2px 0px orangered;
+}
+.spectrum{
+  height: 400px;
+  width: 100vw;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+ #audio-spectrum{
+   margin-top: -70px;
+   z-index: -150;
+  
+} 
+  
+
